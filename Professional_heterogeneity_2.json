@@ -3,33 +3,33 @@
       {
         "id": "0",
         "name": "非正式组织",
-        "symbolSize": 9,
+        "symbolSize": 6,
         "x": -266.82776,
         "y": 299.6904,
-        "value": 9,
+        "value": 6,
         "category": 0
       },
       {
         "id": "1",
         "name": "正式组织",
-        "symbolSize":6,
+        "symbolSize": 4,
         "x": -418.08344,
         "y": 446.8853,
-        "value": 6,
+        "value": 4,
         "category": 1
       },
       {
         "id": "2",
-        "name": "积极影响",
-        "symbolSize":5,
+        "name": "合作",
+        "symbolSize": 2,
         "x": -212.76357,
         "y": 245.29176,
-        "value":5,
+        "value":2,
         "category": 2
       },
       {
         "id": "3",
-        "name": "消极影响",
+        "name": "最终目标",
         "symbolSize": 1,
         "x": -242.82404,
         "y": 235.26283,
@@ -38,7 +38,7 @@
       },
       {
         "id": "4",
-        "name": "小圈子",
+        "name": "共同目标",
         "symbolSize": 1,
         "x": -379.30386,
         "y": 429.06424,
@@ -47,43 +47,43 @@
       },
       {
         "id": "5",
-        "name": "关系好的一群人",
-        "symbolSize": 1,
+        "name": "积极意义",
+        "symbolSize": 9,
         "x": -417.26337,
         "y": 406.03506,
-        "value": 1,
-        "category": 3
+        "value": 9,
+        "category": 4
       },
       {
         "id": "6",
-        "name": "感情",
-        "symbolSize": 1,
+        "name": "消极意义",
+        "symbolSize": 5,
         "x": -332.6012,
         "y": 485.16974,
-        "value": 1,
-        "category": 3
+        "value": 5,
+        "category": 5
       },
       {
         "id": "7",
-        "name": "体系",
-        "symbolSize": 1,
+        "name": "凝聚力",
+        "symbolSize": 4,
         "x": -382.69568,
         "y": 475.09113,
-        "value": 1,
-        "category": 3
+        "value": 4,
+        "category": 1
       },
       {
         "id": "8",
-        "name": "凝聚力",
-        "symbolSize": 1,
+        "name": "协调制度",
+        "symbolSize": 2,
         "x": -320.384,
         "y": 387.17325,
-        "value": 1,
-        "category":3
+        "value": 2,
+        "category": 2
       },
       {
         "id": "9",
-        "name": "职员需要",
+        "name": "打破同质化",
         "symbolSize": 1,
         "x": -344.39832,
         "y": 451.16772,
@@ -92,7 +92,7 @@
       },
       {
         "id": "10",
-        "name": "友谊",
+        "name": "积极性",
         "symbolSize": 1,
         "x": -89.34107,
         "y": 234.56128,
@@ -101,16 +101,16 @@
       },
       {
         "id": "11",
-        "name": "副产品",
-        "symbolSize": 1,
+        "name": "认同感",
+        "symbolSize": 3,
         "x": -87.93029,
         "y": -6.8120565,
-        "value": 1,
-        "category":3
+        "value": 3,
+        "category": 6
       },
       {
         "id": "12",
-        "name": "兴趣爱好",
+        "name": "效率",
         "x": -339.77908,
         "y": -184.69139,
         "symbolSize": 1,
@@ -119,7 +119,7 @@
       },
       {
         "id": "13",
-        "name": "权力关系",
+        "name": "结构基础",
         "symbolSize": 1,
         "x": -194.31313,
         "y": 178.55301,
@@ -128,7 +128,7 @@
       },
       {
         "id": "14",
-        "name": "共事团体",
+        "name": "维持秩序",
         "symbolSize": 1,
         "value": 1,
         "x": -127.701546,
@@ -136,22 +136,49 @@
         "category": 3
       },
       {
+        "id": "16",
+        "name": "任人唯亲",
+        "symbolSize": 4,
+        "value": 4,
+        "x": -527.701546,
+        "y": 542.55057,
+        "category": 1
+      },
+      {
+        "id": "17",
+        "name": "管理混乱",
+        "symbolSize":5,
+        "value": 5,
+        "x": -627.701546,
+        "y": 642.55057,
+        "category": 5
+      },
+      {
+        "id": "18",
+        "name": "人力储备",
+        "symbolSize": 1,
+        "value": 1,
+        "x": -557.701546,
+        "y": 642.55057,
+        "category": 3
+      },
+      {
+        "id": "19",
+        "name": "破坏公平性",
+        "symbolSize": 1,
+        "value": 1,
+        "x": -627.701546,
+        "y": 542.55057,
+        "category": 3
+      },
+      {
         "id": "15",
-        "name": "共同目标",
-        "symbolSize": 2,
+        "name": "小团体",
+        "symbolSize": 4,
         "x": -516.55884,
         "y": -393.98975,
-        "value": 2,
-        "category": 4
-      }，
-      {
-        "id": "16",
-        "name": "人际关系",
-        "symbolSize": 2,
-        "x": -616.55884,
-        "y": -293.98975,
-        "value": 2,
-        "category": 4
+        "value": 4,
+        "category": 1
       }
     ],
     "links": [
@@ -169,10 +196,6 @@
       },
       {
         "source": "0",
-        "target": "4"
-      },
-      {
-        "source": "0",
         "target": "5"
       },
       {
@@ -180,52 +203,124 @@
         "target": "6"
       },
       {
-        "source": "0",
-        "target": "11"
-      },
-      {
-        "source": "0",
-        "target": "12"
-      },
-      {
         "source": "1",
         "target": "0"
       },
       {
         "source": "1",
-        "target": "7"
+        "target": "4"
       },
       {
         "source": "1",
-        "target": "13"
-      },
-      {
-        "source": "1",
-        "target": "14"
-      },
-      {
-        "source": "1",
-        "target": "15"
-      },
-      {
-        "source": "2",
         "target": "8"
       },
       {
         "source": "2",
+        "target": "1"
+      },
+      {
+        "source": "5",
+        "target": "7"
+      },
+      {
+        "source": "5",
         "target": "9"
       },
       {
-        "source": "2",
+        "source": "5",
         "target": "10"
       },
       {
-        "source": "2",
+        "source": "1",
+        "target": "10"
+      },
+      {
+        "source": "5",
+        "target": "11"
+      },
+      {
+        "source": "5",
+        "target": "13"
+      },
+      {
+        "source": "5",
+        "target": "12"
+      },
+      {
+        "source": "5",
+        "target": "14"
+      },
+      {
+        "source": "4",
+        "target": "11"
+      },
+      {
+        "source": "5",
+        "target": "18"
+      },
+      {
+        "source": "6",
+        "target": "16"
+      },
+      {
+        "source": "6",
+        "target": "17"
+      },
+      {
+        "source": "7",
+        "target": "11"
+      },
+      {
+        "source": "7",
+        "target": "12"
+      },
+      {
+        "source": "7",
+        "target": "14"
+      },
+      {
+        "source": "8",
+        "target": "9"
+      },
+      {
+        "source": "10",
+        "target": "12"
+      },
+      {
+        "source": "11",
+        "target": "12"
+      },
+      {
+        "source": "15",
         "target": "16"
       },
       {
         "source": "15",
-        "target": "8"
+        "target": "17"
+      },
+      {
+        "source": "15",
+        "target": "19"
+      },
+      {
+        "source": "16",
+        "target": "19"
+      },
+     {
+        "source": "16",
+        "target": "17"
+      },
+     {
+        "source": "7",
+        "target": "19"
+      },
+     {
+        "source": "17",
+        "target": "12"
+      },
+      {
+        "source": "6",
+        "target": "15"
       }
     ],
     "categories": [
@@ -243,7 +338,10 @@
       },
       {
         "name": "类目4"
-      }，
+      },
+      {
+        "name": "类目6"
+      },
       {
         "name": "类目5"
       }
